@@ -4,7 +4,7 @@ import{BsPatchCheckFill} from 'react-icons/bs';
 const Services = () => {
   return (
     <section id='services'>
-      <h5>what i offer</h5>
+      <h5>what i can do</h5>
       <h2>Services</h2>
 
       <div className='container services_container'>
