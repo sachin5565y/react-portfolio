@@ -17,20 +17,20 @@ const Portfolio = () => {
           <div className='portfolio_item-image'>
           <img src={IMG1} class="img-fluid" alt="..."/>
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>WeatherApp</h3>
           <div className='portfolio_item-cta'>
           <a href='https://github.com' className='btn'>GitHub</a>
-          <a href='https://github.com' className='btn btn-primary'>Live Demo</a>
+          <a href='https://sachin5565y.github.io/project/' className='btn btn-primary'>Live Demo</a>
           </div>
         </article>
         <article className='portfolio_item'>
           <div className='portfolio_item-image'>
           <img src={IMG2} class="img-fluid" alt="..."/>
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>Portfolio</h3>
           <div className='portfolio_item-cta'>
           <a href='https://github.com' className='btn'>GitHub</a>
-          <a href='https://github.com' className='btn btn-primary'>Live Demo</a>
+          <a href='https://sachin5565y.github.io/react-portfolio/#' className='btn btn-primary'>Live Demo</a>
           </div>
         </article>
         <article className='portfolio_item'>
