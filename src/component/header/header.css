@@ -1,13 +1,14 @@
 header{
     height: 100vh;
     padding-top:1rem ;
+    padding-left: 100px;
+    padding-right: 100px;
     overflow: hidden;
 }
 .header_container{
     text-align: center;
     height: 100%;
     position: relative;
-    align-items: center;
 }
 /* CTA*/
 .cta{
@@ -29,7 +30,6 @@ header{
 }
 
 .header_socials::after{
-    content: "";
     width: 1px;
     height: 2rem;
     background: var(--color-primary);
@@ -61,10 +61,14 @@ header{
     font-size: 0.9rem;
 }
 /* -------MEDIA QUERIES(MEDIUM DEVICES)--------- */
-@media screen and (max-widht:1024px){
+@media screen and (max-width:500px){
     header{
-        height: 68vh;
+        height: 100vh;
+        padding-left: 0;
+        padding-right: 0;
+
     }
+
     .header_socials, .scroll_down{
         display: none;
     }

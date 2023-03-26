@@ -15,7 +15,7 @@ const Portfolio = () => {
       <div className='container portfolio_container'>
         <article className='portfolio_item'>
           <div className='portfolio_item-image'>
-          <img src={IMG1} class="img-fluid" alt="..."/>
+          <img src={IMG1} className="img-fluid" alt="..."/>
           </div>
           <h3>WeatherApp</h3>
           <div className='portfolio_item-cta'>
@@ -25,7 +25,7 @@ const Portfolio = () => {
         </article>
         <article className='portfolio_item'>
           <div className='portfolio_item-image'>
-          <img src={IMG2} class="img-fluid" alt="..."/>
+          <img src={IMG2} className="img-fluid" alt="..."/>
           </div>
           <h3>Portfolio</h3>
           <div className='portfolio_item-cta'>
@@ -35,7 +35,7 @@ const Portfolio = () => {
         </article>
         <article className='portfolio_item'>
           <div className='portfolio_item-image'>
-          <img src={IMG3} class="img-fluid" alt="..."/>
+          <img src={IMG3} className="img-fluid" alt="..."/>
           </div>
           <h3>This is a portfolio item title</h3>
           <div className='portfolio_item-cta'>
@@ -45,7 +45,7 @@ const Portfolio = () => {
         </article>
         <article className='portfolio_item'>
           <div className='portfolio_item-image'>
-          <img src={IMG4} class="img-fluid" alt="..."/>
+          <img src={IMG4} className="img-fluid" alt="..."/>
           </div>
           <h3>This is a portfolio item title</h3>
           <div className='portfolio_item-cta'>
@@ -55,7 +55,7 @@ const Portfolio = () => {
         </article>
         <article className='portfolio_item'>
           <div className='portfolio_item-image'>
-          <img src={IMG5} class="img-fluid" alt="..."/>
+          <img src={IMG5} className="img-fluid" alt="..."/>
           </div>
           <h3>This is a portfolio item title</h3>
           <div className='portfolio_item-cta'>
@@ -65,7 +65,7 @@ const Portfolio = () => {
         </article>
         <article className='portfolio_item'>
           <div className='portfolio_item-image'>
-          <img src={IMG6} class="img-fluid" alt="..."/>
+          <img src={IMG6} className="img-fluid" alt="..."/>
           </div>
           <h3>This is a portfolio item title</h3>
           <div className='portfolio_item-cta'>

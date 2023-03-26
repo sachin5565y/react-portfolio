@@ -6,7 +6,6 @@ const HeaderSocial = () => {
     <div className='header_socials'>
         <a href='https://linkdin.com' target="_blank" rel="noreferrer"><BsLinkedin/></a>
         <a href='https://github.com' target="_blank" rel="noreferrer"><BsGithub/></a>
-
     </div>
   )
 }
