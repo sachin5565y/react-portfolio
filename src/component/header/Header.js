@@ -3,6 +3,7 @@ import './header.css'
 import CTA from './CTA'
 import ME from '../../assets/me.png'
 import HeaderSocial from './HeaderSocial'
+import {motion} from 'framer-motion';
 const header = () => {
   return (
     <header>
@@ -12,9 +13,9 @@ const header = () => {
         <h5 className='text-light'>Fullstack Developer</h5>
         <CTA />
         <HeaderSocial />
-        <div className='me'>
+        <motion.div initial={{x:'-80vw'}} animate={{x:-169}} transition={{type:'spring',duration:1,bounce:0.3}} className='me'>
         <img src={ME}  alt="..."/>
-        </div>
+        </motion.div>
         <a href='#contact' className='scroll_down'>Scroll Down</a>
       </div>
     </header>
