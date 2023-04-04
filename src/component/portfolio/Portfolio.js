@@ -19,7 +19,7 @@ const Portfolio = () => {
           </div>
           <h3>WeatherApp</h3>
           <div className='portfolio_item-cta'>
-          <a href='https://github.com' className='btn'>GitHub</a>
+          <a href='https://github.com/sachin5565y/project' className='btn'>GitHub</a>
           <a href='https://sachin5565y.github.io/project/' className='btn btn-primary'>Live Demo</a>
           </div>
         </article>
@@ -29,7 +29,7 @@ const Portfolio = () => {
           </div>
           <h3>Portfolio</h3>
           <div className='portfolio_item-cta'>
-          <a href='https://github.com' className='btn'>GitHub</a>
+          <a href='https://github.com/sachin5565y/react-portfolio' className='btn'>GitHub</a>
           <a href='https://sachin5565y.github.io/react-portfolio/#' className='btn btn-primary'>Live Demo</a>
           </div>
         </article>
@@ -37,10 +37,10 @@ const Portfolio = () => {
           <div className='portfolio_item-image'>
           <img src={IMG3} className="img-fluid" alt="..."/>
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>Textutils</h3>
           <div className='portfolio_item-cta'>
-          <a href='https://github.com' className='btn'>GitHub</a>
-          <a href='https://github.com' className='btn btn-primary'>Live Demo</a>
+          <a href='https://github.com/sachin5565y/Textutils' className='btn'>GitHub</a>
+          <a href='https://sachin5565y.github.io/Textutils/' className='btn btn-primary'>Live Demo</a>
           </div>
         </article>
         <article className='portfolio_item'>
